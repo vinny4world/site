@@ -1,0 +1,123 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jun 1, 2024, 9:40:48 PM
+    Author     : vin
+*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-image: url(starfield800.gif);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(255,255,255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: Verdana, Tahoma, sans-serif;
+    
+    
+}
+
+.ucontainer {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+
+
+
+
+
+.uimage-container {
+    height: 96px;
+    width: 96px;
+    border-radius: 48px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.uimage-container img {
+    height:100%;
+}
+
+.utopicon {
+    margin: 4px 8px;
+    width: 40px;
+    height: 40px;
+    opacity: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.utopicon:hover {
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+.utoptile {
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    margin: 9px;
+    border-radius: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.utile {
+    width: 50%;
+    background-color: rgba(0,0,255,0.1);
+    margin: 10px;
+    border-radius: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    mix-blend-mode: lighten;
+}
+
+.utile:hover {
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+.uicon {
+    margin: 0px 0px;
+    width: 40px;
+    height: 40px;
+    opacity: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.utile-share-button {
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0);
+}
+
+
+
+.utile-share-button img {
+    opacity: 80%;
+}
+
+
+
+
