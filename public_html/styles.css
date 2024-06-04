@@ -10,7 +10,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 body, html {
     margin: 0;
     padding: 0;
-    background-image: url(starfield800.gif);
+    background-image: url(giftest4.gif);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +22,6 @@ body, html {
     flex-direction: column;
     width: 100vw;
     font-family: Verdana, Tahoma, sans-serif;
-    
 }
 
 body::-webkit-scrollbar {
@@ -31,7 +30,6 @@ body::-webkit-scrollbar {
     display: none;
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
-
 
 
 .ucontainer {
