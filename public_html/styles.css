@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
     width: 0;
     height: 0;
     display: none;
-    background: transparent;  /* Optional: just make scrollbar invisible */
+    background: transparent;
 }
 
 
@@ -61,33 +61,37 @@ a {
 
 .utopicon {
     margin: 4px 8px;
-    width: 40px;
-    height: 40px;
-    opacity: 70%;
+    width: 45px;
+    height: 45px;
+    opacity: 65%;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
 }
 
 .utopicon:hover {
-    box-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
 }
 
 .utoptile {
     width: 100%;
     background-color: rgba(0,0,0,0);
     margin: 9px;
-    border-radius: 1px;
+    border-radius: 0px;
     text-align: center;
     display: flex;
     justify-content: center;
 }
 
 .utile {
-    width: 70%;
-    height: 45px;
+    width: 55%;
+    height: 55px;
     background-color: rgba(0,0,255,0);
     margin: 12px;
-    border-radius: 0px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgba(255,0,255,0.4);
+    border-width: 0px;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -100,27 +104,28 @@ a {
 
 .uicon {
     margin: 0px 0px;
-    width: 40px;
-    height: 40px;
-    opacity: 100%;
+    width: 35px;
+    height: 35px;
+    opacity: 0%;
     display: flex;
     align-items: center;
 }
 
 .utile-share-button {
-    margin: 5px 1px;
-    width: 40px;
-    height: 40px;
+    margin: 15px 0px;
+    width: 35px;
+    height: 35px;
     border-radius: 20px;
     background-color: rgba(0,0,0,0);
 }
 
 .utile-share-button img {
-    opacity: 100%;
+    opacity: 0%;
 }
 
 pre {
     background-color: rgba(0,0,0,0) !important;
     display: flex !important;
     align-items: center !important;
+    font-size: 18px !important;
 }
