@@ -11,9 +11,9 @@ body, html {
     margin: 0;
     padding: 0;
     background-image: url(giftest4.gif);
+    background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
     background-color: rgb(0,0,0);
     height: calc(100vh + 20);
     color: rgb(255,255,255);
