@@ -83,7 +83,7 @@ a {
 }
 
 .utile {
-    width: 75%;
+    width: 75% !important;
     height: 55px;
     background-color: rgba(0,0,255,0);
     margin: 12px;
