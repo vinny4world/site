@@ -95,7 +95,7 @@ a {
 }
 
 .utile {
-    width: 75%;
+    width: 40%;
     height: 55px;
     background-color: rgba(0,0,255,0);
     margin: 12px;
@@ -113,6 +113,32 @@ a {
     box-shadow: 0 0 10px rgba(255, 0, 255, 0.6);
 }
 
+.utile2 {
+    width: 80%;
+    height: 55px;
+    background-color: rgba(0,0,255,0);
+    margin: 12px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgba(255,0,255,0.4);
+    border-width: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.utile2:hover {
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.6);
+}
+
+.utile2:active {
+    
+    box-shadow: 0 0 30px rgba(255, 0, 255, 0.6);
+}
+
+.utile2:active:after {
+    box-shadow: 0 0 30px rgba(255, 0, 255, 0.6);
+}
+
 .uicon {
     margin: 0px 0px;
     width: 35px;
@@ -121,6 +147,18 @@ a {
     display: flex;
     align-items: center;
 }
+
+.ubuttontext {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 .utile-share-button {
     margin: 15px 0px;
