@@ -61,11 +61,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </a>
         </div>
         
-            <a class="utile2" href="https://wa.me/15209001720">
-                <div class="ubuttontext">
-                    <pre style="color: rgb(255, 0, 255)">WhatsApp</pre>
-                </div>
-            </a>
+            
             
             
             
@@ -75,7 +71,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </a>
             
-            
+            <a class="utile2" href="https://wa.me/15209001720">
+                <div class="ubuttontext">
+                    <pre style="color: rgb(255, 0, 255)">WhatsApp</pre>
+                </div>
+            </a>
 
             
         </div>
