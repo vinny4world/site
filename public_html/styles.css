@@ -124,6 +124,7 @@ a {
     border-width: 0px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .utile2:hover {
@@ -177,4 +178,19 @@ pre {
     display: flex !important;
     align-items: center !important;
     font-size: 18px !important;
+}
+
+#copy-tooltip {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none; /* Prevent interaction */
+    position: fixed; /* Position tooltip relative to viewport */
+    z-index: 1000;
 }
