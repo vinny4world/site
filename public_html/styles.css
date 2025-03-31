@@ -133,11 +133,11 @@ a {
 
 .utile2:active {
     
-    box-shadow: 0 0 30px rgba(255, 0, 255, 0.6);
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.6);
 }
 
 .utile2:active:after {
-    box-shadow: 0 0 30px rgba(255, 0, 255, 0.6);
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.6);
 }
 
 .uicon {
@@ -177,7 +177,22 @@ pre {
     background-color: rgba(0,0,0,0) !important;
     display: flex !important;
     align-items: center !important;
-    font-size: 18px !important;
+    font-size: 18px ;
+}
+
+.speech {
+	position: relative;
+	background: 0,0,0,0;
+	border-radius: .6em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0px 0px;
+}
+
+label {
+    margin: 0px 0px;
+    font-size: 13px;
 }
 
 #copy-tooltip {
