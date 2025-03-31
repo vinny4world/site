@@ -64,8 +64,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 
                 <a class="utile2" onclick="copyToClipboard(event, 'twizzytwinkie')">
                     <div class="ubuttontext" >
-                        <pre style="color: gold; padding: 0;">My Discord</pre>
-                        <pre style="color: gold; padding: 0; font-size: 13px !important;">(click to copy username)</pre>
+                        <pre style="color: gold; padding: 0 !important;">My Discord</pre>
+                        <pre style="color: gold; padding: 0 !important; font-size: 13px !important;">(click to copy username)</pre>
                         
                     </div>
                 </a>
