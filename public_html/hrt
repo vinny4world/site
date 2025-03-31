@@ -62,6 +62,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     </div>
                 </a>
 
+<a class="utile2" href="https://www.google.com/maps/d/u/0/viewer?mid=1DxyOTw8dI8n96BHFF2JVUMK7bXsRKtzA&hl=en_US&ll=39.79699867693708%2C-41.756189048055745&z=4">
+                    <div class="ubuttontext" >
+                        <pre style="color: rgb(255, 0, 255); padding: 0;">Informed Consent Map</pre>
+                        
+                    </div>
+                </a>
+
+
+
                 <a class="utile2" onclick="copyToClipboard(event, 'twizzytwinkie')">
                     <div class="ubuttontext" >
                         <pre style="color: gold; padding: 0 !important;">My Discord (click to copy)</pre>
